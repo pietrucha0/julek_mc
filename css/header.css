@@ -16,7 +16,6 @@ nav > ul {
     justify-content: space-between;
     margin: 0;
     padding: 0;
-    list-style: none;
     padding: 20px;
 }
 
@@ -27,7 +26,6 @@ nav > ul > li{
 }
 
 nav > ul > li > a {
-    text-decoration: none;
     color: rgb(30, 30, 30);
     background-color: rgb(215, 215, 215);
     padding: 10px 15px;
@@ -38,7 +36,6 @@ nav > ul > li > a {
     min-width: 21vw;
     text-align: center;
     transition: 0.3s;
-
     
     -webkit-box-shadow: 22px 11px 32px -12px rgba(0, 0, 0, 1);
     -moz-box-shadow: 22px 11px 32px -12px rgba(0, 0, 0, 1);
@@ -46,7 +43,7 @@ nav > ul > li > a {
 }
 
 nav > ul > li > a:hover{
-    background-color: #bcbcbc;
+    background-color: #afafaf;
     transform: scale(1.04);
 }
 
@@ -66,7 +63,7 @@ header {
     text-align: center;
 }
 
-header .background {
+header > .background {
     position: absolute;
     top: 0;
     left: 0;
@@ -76,7 +73,7 @@ header .background {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    filter: brightness(50%);
+    filter: brightness(40%);
     z-index: 1;
 }
 

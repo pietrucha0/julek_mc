@@ -1,18 +1,72 @@
-#server-info{
-    background-color: rgb(26, 91, 34);
+.server-info{
+    background-color: #0f290f;
+    /* background: rgb(121,93,74); */
+    /* background: linear-gradient(90deg, rgba(121,93,74,1) 3%, rgba(88,49,25,1) 88%); */
     height: 110vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative
 }
 
-#server-info > div{
-    background-color: rgb(255, 255, 255);
+.server-info > .background{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url('../assets/mc.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: brightness(30%);
+    z-index: 1;
     border-radius: 5px;
     width: 85vw;
     height: 80vh;
+    /* height: 100vh;
+    width: 100vw; */
+    -webkit-box-shadow: 20px 20px 40px -25px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 20px 20px 40px -25px rgba(66, 68, 90, 1);
+    box-shadow: 20px 20px 40px -25px rgba(66, 68, 90, 1);
 }
 
 .info-div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 2;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    height: 60%;
+    border-radius: 5px;
+    /* background-color: white;
+    filter: opacity(0.3); */
+}
 
+.info-div > a{
+    transform: scale(1.6);
+
+}
+
+.info-div > h2 {
+    font-size: 6em; 
+}
+
+.server-adress{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.info-div > .server-adress > h3 {
+    font-size: 2.5em; 
+    color: rgb(207, 207, 207);
+}
+
+.info-div > .server-adress > p {
+    font-size: 2.5em; 
+    color: #af0707;
 }

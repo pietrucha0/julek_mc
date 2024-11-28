@@ -14,7 +14,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-image: url('../assets/mc.jpg');
+    background-image: url('../../assets/mc.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -45,9 +45,21 @@
     filter: opacity(0.3); */
 }
 
-.info-div > a{
+.info-div > div > a > img{
     transform: scale(1.6);
+    border-radius: 3px;
+    border: 6px solid #0f290f;
+}
 
+.info-div > div > svg{
+    position: absolute;
+    top: 78%;
+    left: 97%;
+    transform: translate(-50%, -50%) rotate(330deg);
+    height: 160px;
+    color: #af0707;
+    pointer-events: none;
+    z-index: 99;
 }
 
 .info-div > h2 {

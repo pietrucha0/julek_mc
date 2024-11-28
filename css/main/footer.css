@@ -1,0 +1,26 @@
+footer{
+    background-color: #271a11;
+    height: auto;
+}
+
+footer > p{
+    padding: 10px;
+    color: #bbbbbb;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    font-weight: bold;
+    letter-spacing: 0.8px;
+    font-size: 1.1em;
+}
+
+footer > p > a{
+    color: #7cbd64;
+    transition: 0.3s;
+}
+
+footer > p > a:hover{
+    color: #507443;
+}
+
+footer > p > a:active{
+    color: #9fdf88;
+}

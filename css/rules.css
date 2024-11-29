@@ -1,0 +1,28 @@
+.rules{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--brown);
+    color: var(--font);
+    padding: 10px;
+    min-height: 100vh;
+    justify-content: space-around;
+}
+
+.rules > h1{
+    font-size: 3em;
+}
+
+.rules > ol > li > strong::before{
+    content: "➜ ";
+}
+
+.rules > ol > li > strong{
+    font-size: 1.2em;
+    margin: 10px;
+}
+
+.rules > ol > li > ul > p{
+    margin: 5px;
+}

@@ -1,3 +1,6 @@
+/* SERVER INFO */
+
+
 .server-info{
     background-color: #0f290f;
     /* background: rgb(121,93,74); */
@@ -41,8 +44,6 @@
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
     height: 60%;
     border-radius: 5px;
-    /* background-color: white;
-    filter: opacity(0.3); */
 }
 
 .info-div > div > a > img{
@@ -81,4 +82,87 @@
 .info-div > .server-adress > p {
     font-size: 2.5em; 
     color: #af0707;
+}
+
+
+
+
+
+
+
+/* OUR OFFER */
+
+
+.our-offer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 110vh;
+    background: rgb(51,38,31);
+    background: linear-gradient(90deg, rgba(51,38,31,1) 23%, rgba(106,81,64,1) 99%);
+    color: #d7d7d7;
+}
+
+.description > ul >  h5{
+    font-size: 1.5em;
+    color: #d7d7d7;
+    margin: 20px;
+}
+
+.our-offer > .description > h1{
+    font-size: 4em;
+    text-shadow: 2px 2px 5px #000000b3;
+    margin-bottom: 0.5em;
+}
+
+.description{
+    border-radius: 10px;
+    width: 65vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-weight: 400;
+    background-color: #271a11;
+    padding: 35px;
+    -webkit-box-shadow: 20px 20px 40px -25px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 20px 20px 40px -25px rgba(0, 0, 0, 1);
+    box-shadow: 20px 20px 40px -25px rgba(0, 0, 0, 1);
+}
+
+
+
+
+
+
+
+/* FOOTER */
+
+
+footer{
+    background-color: #271a11;
+    height: auto;
+}
+
+footer > p{
+    padding: 10px;
+    color: #bbbbbb;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    font-weight: bold;
+    letter-spacing: 0.8px;
+    font-size: 1.1em;
+}
+
+footer > p > a{
+    color: #7cbd64;
+    transition: 0.3s;
+}
+
+footer > p > a:hover{
+    color: #507443;
+}
+
+footer > p > a:active{
+    color: #9fdf88;
 }
